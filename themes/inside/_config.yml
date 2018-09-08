@@ -2,7 +2,7 @@ theme:
   # url prefix of the fetching of json data
   # api_prefix: api
   # body background
-  background: confectionary.png \#f5f7fa
+  background: confectionary.png
   # sidebar background
   sidebar_background: shattered-island.png
   # maximum width of content
@@ -11,21 +11,21 @@ theme:
 # Sidebar menu
 menu:
   home: /
-  # about: /about
+  about: /about
   # links: /links
 
 # Profile
 profile:
-  avatar: /avatar.jpg
+  avatar: /logo.jpg
   # Email address will be used for showing gravatar(https://en.gravatar.com) avatar if `avatar` is not specified.
   email: example@mail.com
-  bio: Awesome guy.
+  bio: What could possibly change your lifestyle? Share to us. Thumbs up!
 
 # Social media
 # Try to sort by changing the order of the keys
 sns:
   # `email` will fallback to `profile.email` if not specified
-  email:
+  email: 
   # `feed` will fallback to `feed.path` of site if not specified
   feed:
   github:
@@ -50,9 +50,10 @@ footer:
   copyright:
 
   # Set to false to hide Hexo link.
-  powered: true
+  powered: false
   # Set to false to hide theme info.
-  theme: true
+  theme: false
+
 
   # Custom text can be defined here.
   # custom: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
@@ -99,7 +100,7 @@ category:
 
 # Favicon
 # Default is `favicon.ico`
-# favicon: favicon.ico
+favicon: favicon.ico
 
 # Disqus comments
 comments:
@@ -151,7 +152,7 @@ pwa:
 seo:
   # Render structured-data
   # Disabled by default, set to true to enable
-  # structured_data: true
+  structured_data: true
 
 # Google analytics
 # ga: UA-00000000-0
