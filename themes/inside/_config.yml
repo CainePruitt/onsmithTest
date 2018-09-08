@@ -25,7 +25,7 @@ profile:
 # Try to sort by changing the order of the keys
 sns:
   # `email` will fallback to `profile.email` if not specified
-  email: 
+  email: onsmithcomics@protonmail.com
   # `feed` will fallback to `feed.path` of site if not specified
   feed:
   github:
@@ -100,7 +100,7 @@ category:
 
 # Favicon
 # Default is `favicon.ico`
-favicon: favicon.ico
+favicon: logo.jpg
 
 # Disqus comments
 comments:
